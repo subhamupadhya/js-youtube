@@ -12,4 +12,9 @@ accountCity = "Mumbai"
 
 console.log(accountId);
 
-console.log([accountId, accountEmail, accountpassword, accountCity])
+/*
+prefer not to use var
+because of issue in block scope and functional scope
+*/
+
+console.table([accountId, accountEmail, accountpassword, accountCity])
