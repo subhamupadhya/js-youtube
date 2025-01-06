@@ -57,3 +57,28 @@ Return type of variables in JavaScript
        Arrays  =>  object
        Function  =>  function
        Object  =>  object
+*/
+
+
+
+//                                 LECTURE-10
+//                               *****MEMORY******
+//                               1. stack memory (primitive)
+ //                              2. heap memory  (non primitive)
+
+let myYoutubename = "subhamupadhya"
+let anothername = myYoutubename
+anothername = "shivani"
+
+console.log(myYoutubename); 
+console.log(anothername);
+
+let userOne = {
+    email: "subhamupadhya53100@gmail.com",
+//    upi : iybl         
+}
+
+let userTwo = userOne
+userTwo.email = "shivani@53100gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
