@@ -9,6 +9,7 @@ console.log(`Hello my name is ${name} and my repocount is ${repocount}`);      /
 const gameName =  new String(`subham`)
 
 console.log(gameName[0]);                      // to find the position
+
 console.log(gameName.__proto__);               // to find {}
 
 
