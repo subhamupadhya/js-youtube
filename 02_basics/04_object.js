@@ -67,3 +67,39 @@ console.log(Object.entries(tinderUser));   // with the help of entries we can ge
 
 // to check the availability of property
 console.log(tinderUser.hasOwnproperty('isLoggedIn')); 
+
+
+
+// next lecture:==
+// OBJECT DE-STRUCTURE AND JSON API
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "subham upadhya"
+}
+
+//console.log(course.courseInstructor);       // to acess the courseinstructor value
+
+//also can aceess:--
+const{courseInstructor} = course
+console.log(courseInstructor);
+
+//de-structure of object:- doing only in {}
+// mainly we can put another name instead of that :
+const{courseInstructor: Instructor} = course
+console.log(Instructor);
+
+// json:- key is also string and their output is also string
+{
+   // "name": "subham",
+   // "coursename": "js in hindi"
+   // "price" : "free"
+}
+
+// in array also json:-
+[
+    {},
+    {},
+    {},
+]
